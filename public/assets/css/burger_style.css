@@ -6,16 +6,13 @@
     margin-top: 10px;
 }
 
-.jumbotron > h1 {
-    font-family: 'Creepster', cursive;
-}
-
 #newburger {
     border-radius: 5px;
 }
 
 #color-override {
-    color: #fff;
+    color: black;
+    opacity: 1;
 }
 
 #lefthead {

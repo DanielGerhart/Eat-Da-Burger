@@ -1,4 +1,3 @@
-// Connect Node to MySQL.
 var mysql = require("mysql");
 
 if (process.env.JAWSDB_URL) {
@@ -20,5 +19,4 @@ connection.connect(function(err) {
     console.log("connected as id " + connection.threadId);
 });
 
-// Export the connection.
 module.exports = connection;
